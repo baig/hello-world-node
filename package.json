@@ -1,0 +1,29 @@
+{
+  "name": "hello-world-node",
+  "version": "1.0.0",
+  "description": "Say hello to the world using Node.js.",
+  "keywords": [
+    "hello",
+    "world"
+  ],
+  "homepage": "https://github.com/baig/hello-world-node",
+  "author": "Wasif <pr.wasif@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/baig/hello-world-node.git"
+  },
+  "bugs:": "https://github.com/baig/hello-world-node/issues",
+  "engines": {
+    "node": ">= v0.10.0"
+  },
+  "main": "lib/adbutler.js",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "mocha": "^3.2.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha --opts mocha.opts"
+  }
+}
